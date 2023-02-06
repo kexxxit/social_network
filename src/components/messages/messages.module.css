@@ -1,0 +1,40 @@
+.messages {
+    grid-area: content;
+    display: grid;
+    grid-template-areas:
+            'contacts dialog'
+            'contacts input'                ;
+    grid-auto-columns: 4fr 8fr;
+    height: 860px;
+
+
+}
+
+.contacts {
+    grid-area: contacts;
+}
+
+.dialog {
+    grid-area: dialog;
+    background-color: white;
+    margin: 15px 0 0 15px;
+    border-radius: 5px 5px 0 0;
+
+    overflow-y: scroll;
+}
+
+.dialog__inner {
+    margin: 15px 20px;
+}
+
+.messages__control {
+    grid-area: input;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0px 0px 15px 15px;
+    height: 50px;
+    align-items: center;
+    border-top: 2px #e7e7e7 solid;
+    border-radius: 0 0 5px 5px;
+}

@@ -1,0 +1,49 @@
+.contact {
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    transition: background-color 5ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact:hover {
+    background-color: #378ab7;
+    color: white;
+    cursor: pointer;
+}
+
+.contact:hover .lastMsg {
+    color: white;
+}
+
+.contact div {
+    margin-top: 5px;
+}
+
+.contact img {
+    margin: 10px 10px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.contact div div {
+
+}
+
+.lastMsg {
+    font-size: 14px;
+    color: #5d5d5d;
+}
+
+.active {
+    background-color: #419fd9;
+    color: white;
+}
+
+.active .lastMsg {
+    color: white;
+}

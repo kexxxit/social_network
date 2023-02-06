@@ -1,0 +1,15 @@
+.app-wrapper {
+    margin: 0 auto;
+    display: grid;
+    width: 1000px;
+    overflow: hidden;
+    grid-template-areas:
+        "header header"
+        "nav content";
+    grid-template-rows: 60px;
+    grid-auto-columns: 2fr 10fr;
+}
+
+body {
+    background-color: #e7e7e7;
+}

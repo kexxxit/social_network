@@ -1,0 +1,74 @@
+.users__page {
+    background-color: white;
+    margin-top: 15px;
+
+}
+
+.users {
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0;
+}
+
+.user {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.follow__button {
+    width: 70px;
+}
+
+.user__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.user_friendsCount {
+    font-size: 14px;
+}
+
+.selected__page {
+    font-weight: bold;
+}
+
+.page__control {
+    display: flex;
+    justify-content: center;
+}
+
+.page__control span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.page__control span:hover {
+    font-weight: bold;
+}
+
+.preloader {
+    display: flex;
+    justify-content: center;
+
+}
+
+.preloader img {
+    width: 25px;
+}
+
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}

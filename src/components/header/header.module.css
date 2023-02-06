@@ -1,0 +1,14 @@
+.header {
+    grid-area: header;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.logo {
+    padding-left: 5px;
+    width: 60px;
+}
+
+.login__block {
+    float: right;
+}
