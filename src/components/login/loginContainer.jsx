@@ -7,7 +7,7 @@ import {Navigate} from "react-router-dom";
 
 class LoginAPI extends React.Component {
     render() {
-        if (this.props.isAuth) return <Navigate to={`/profile/${this.props.userId}`} />
+        if (this.props.isAuth) return <Navigate to={`/profile`} />
         return <Login isAuth={this.props.isAuth}
                       loginData={this.props.loginData}
                       inputPasswordUpdater = {this.props.inputPasswordUpdater}

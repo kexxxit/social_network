@@ -1,3 +1,6 @@
+const SEND_MESSAGE = 'dialogs/SEND-MESSAGE'
+const SEND_MESSAGE_UPDATER = 'dialogs/SEND-MESSAGE-UPDATER'
+
 let initialState = {
     userData: [
         {id: 1, name: 'Шлепок'},
@@ -34,7 +37,7 @@ const dialogsReducer = (state = initialState, action) => {
 
     let stateCopy = {...state}
     switch (action.type) {
-        case 'SEND-MESSAGE' :
+        case SEND_MESSAGE :
             let newMessage = {
                 id: 6,
                 message: action.messageText,
@@ -49,7 +52,7 @@ const dialogsReducer = (state = initialState, action) => {
 
             return stateCopy
             break
-        case 'SEND-MESSAGE-UPDATER' :
+        case SEND_MESSAGE_UPDATER :
             stateCopy.newMessageBody = action.body
             return stateCopy
             break
@@ -59,7 +62,7 @@ const dialogsReducer = (state = initialState, action) => {
     }
 }
 
-export const sendMessageActionCreator = (messageText) => ({ type: 'SEND-MESSAGE', messageText: messageText })
-export const sendMessageUpdater = (messageText) => ({ type: 'SEND-MESSAGE-UPDATER', messageText: messageText })
+export const sendMessageActionCreator = (messageText) => ({type: SEND_MESSAGE, messageText: messageText})
+export const sendMessageUpdater = (messageText) => ({type: SEND_MESSAGE_UPDATER, messageText: messageText})
 
 export default dialogsReducer

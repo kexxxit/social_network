@@ -2,7 +2,7 @@ import styles from "../profile.module.css";
 import postImg from "./qYayTIyBR68.jpg";
 import React from "react"
 
-function Post(props) {
+const Post = React.memo((props) => {
 
     return (
         <div className={styles.post}>
@@ -20,6 +20,6 @@ function Post(props) {
             <img className={styles.likeImg} src='http://cdn.onlinewebfonts.com/svg/img_118478.png'/>
         </div>
     )
-}
+})
 
 export default Post

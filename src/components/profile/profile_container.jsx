@@ -8,6 +8,10 @@ import {connect} from "react-redux";
 import {useParams} from "react-router-dom";
 
 class ProfileAPI extends React.Component {
+    state = {
+        userId: this.props.params.userId ? this.props.params.userId : this.props.userId
+    }
+
     componentDidMount() {
         let userId = this.props.params.userId
         if (!userId) {
@@ -15,6 +19,14 @@ class ProfileAPI extends React.Component {
         }
         this.props.setUser(userId)
         this.props.getStatus(userId)
+    }
+
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if(prevProps.userId !== this.props.userId) {
+            this.setState({userId: this.props.userId})
+            this.props.setUser(this.props.userId)
+            this.props.getStatus(this.props.userId)
+        }
     }
 
     addNewPost = (postContent) => {

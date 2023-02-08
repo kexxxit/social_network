@@ -2,9 +2,7 @@ import styles from './user_posts/profile.module.css'
 import Post from "./user_posts/user_post/post";
 import React from "react";
 import Friends from "../messages/friends";
-import ProfileStatus from "./profileStatus";
 import ProfileStatusWithHook from "./profileStatusWithHook";
-
 
 let Profile = (props) => {
     let postContent = React.createRef()

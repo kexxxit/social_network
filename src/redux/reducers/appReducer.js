@@ -1,6 +1,6 @@
 import {auth} from "./authReducer";
 
-const INITIALIZED_SUCCESS = 'INITIALIZED-SUCCESSFUL'
+const INITIALIZED_SUCCESS = 'app/INITIALIZED-SUCCESSFUL'
 
 let initialState = {
     initialized: false,
@@ -24,6 +24,7 @@ export const initialize = () => {
         let promise = dispatch(auth())
         Promise.all([promise]).then(() => {
             dispatch(setInitialized())
+            debugger
         })
     }
 }
