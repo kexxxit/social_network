@@ -40,23 +40,7 @@
     font-size: 14px;
 }
 
-.selected__page {
-    font-weight: bold;
-}
 
-.page__control {
-    display: flex;
-    justify-content: center;
-}
-
-.page__control span {
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.page__control span:hover {
-    font-weight: bold;
-}
 
 .preloader {
     display: flex;

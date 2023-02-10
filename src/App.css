@@ -13,3 +13,42 @@
 body {
     background-color: #e7e7e7;
 }
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #378ab7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 1ms;
+}
+
+button:hover {
+    background-color: #2e7398;
+}
+
+textarea {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 12px;
+}

@@ -2,14 +2,10 @@ import React from "react";
 import styles from "./users.module.css";
 import Preloader from "../common/Preloader";
 import {NavLink} from "react-router-dom";
+import Paginator from "../common/Paginator";
 
 let Users = (props) => {
-    let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize)
 
-    let pages = []
-    for (let i = 1; i <= 20; i++) {
-        pages.push(i)
-    }
     return <div className={styles.users__page}>
 
         <div className={styles.users}>
@@ -38,14 +34,7 @@ let Users = (props) => {
         <div className={styles.preloader}>
             {props.isFetching ? <Preloader /> : null}
         </div>
-        <div className={styles.page__control}>
-            {
-                pages.map(page => {
-                    return <span onClick={(e) => {
-                        props.onPageChanged(page)
-                    }} className={props.currentPage === page && styles.selected__page}>{page}</span>
-                })}
-        </div>
+        <Paginator totalItemsCount={props.totalUsersCount} pageSize={props.pageSize} currentPage={props.currentPage} onPageChanged={props.onPageChanged} />
     </div>
 }
 
