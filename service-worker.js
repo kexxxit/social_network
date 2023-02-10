@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kexxxit/social_network.git/precache-manifest.e4ff96569e24254cfefc6c2b88bb5985.js"
+  "/social_network/precache-manifest.a492a5741892b60f4f26dc20bac5bbcd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kexxxit/social_network.git/index.html", {
+workbox.routing.registerNavigationRoute("/social_network/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
