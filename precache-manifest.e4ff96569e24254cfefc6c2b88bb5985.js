@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b17d2e94981bd3838899",
+    "revision": "27a28705ec83b02900eb",
     "url": "/kexxxit/social_network.git/static/css/main.14d517c9.chunk.css"
   },
   {
-    "revision": "b17d2e94981bd3838899",
-    "url": "/kexxxit/social_network.git/static/js/main.b17d2e94.chunk.js"
+    "revision": "27a28705ec83b02900eb",
+    "url": "/kexxxit/social_network.git/static/js/main.27a28705.chunk.js"
   },
   {
     "revision": "1dd6dd09f73eb9493fd0",
@@ -16,32 +16,32 @@ self.__precacheManifest = [
     "url": "/kexxxit/social_network.git/static/js/1.1dd6dd09.chunk.js"
   },
   {
-    "revision": "bf90e3c50c5128239f55",
+    "revision": "a11ffe1e60ac3dbcc420",
     "url": "/kexxxit/social_network.git/static/css/2.6ed389ed.chunk.css"
   },
   {
-    "revision": "bf90e3c50c5128239f55",
-    "url": "/kexxxit/social_network.git/static/js/2.bf90e3c5.chunk.js"
+    "revision": "a11ffe1e60ac3dbcc420",
+    "url": "/kexxxit/social_network.git/static/js/2.a11ffe1e.chunk.js"
   },
   {
-    "revision": "f5619c71e3a739eda422",
+    "revision": "66053a9738419e4ba474",
     "url": "/kexxxit/social_network.git/static/css/3.4e937cb2.chunk.css"
   },
   {
-    "revision": "f5619c71e3a739eda422",
-    "url": "/kexxxit/social_network.git/static/js/3.f5619c71.chunk.js"
+    "revision": "66053a9738419e4ba474",
+    "url": "/kexxxit/social_network.git/static/js/3.66053a97.chunk.js"
   },
   {
     "revision": "93bcbb9704779df5228a",
     "url": "/kexxxit/social_network.git/static/js/4.93bcbb97.chunk.js"
   },
   {
-    "revision": "d399f01edba8d56adf8c",
-    "url": "/kexxxit/social_network.git/static/js/5.d399f01e.chunk.js"
+    "revision": "723ba2d2200eb412824a",
+    "url": "/kexxxit/social_network.git/static/js/5.723ba2d2.chunk.js"
   },
   {
-    "revision": "17057907070f259b8918",
-    "url": "/kexxxit/social_network.git/static/js/runtime~main.17057907.js"
+    "revision": "0bf2923bf9a516aa187c",
+    "url": "/kexxxit/social_network.git/static/js/runtime~main.0bf2923b.js"
   },
   {
     "revision": "1f9845c83d9c82c4b9da2cd4da64fac8",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/kexxxit/social_network.git/static/media/avatar.a2794925.jpg"
   },
   {
-    "revision": "fcc053efebcc842aae819be1516651b0",
+    "revision": "590525fdaedeed5a56e8e16ae9d0cd3b",
     "url": "/kexxxit/social_network.git/index.html"
   }
 ];
